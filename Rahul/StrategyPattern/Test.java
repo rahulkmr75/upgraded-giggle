@@ -11,6 +11,11 @@ public class Test {
 		toyDuck.fly();
 		toyDuck.quack();
 		
+		Duck toyDuck2 = new ToyDuck();
+		toyDuck2.setFlyBehaviour(new JumpFly());
+		toyDuck2.fly();
+		toyDuck2.quack();
+		
 	}
 
 }

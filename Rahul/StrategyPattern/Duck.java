@@ -9,6 +9,13 @@ public class Duck {
 		this.flyBehaviour = flyBehaviour;
 		this.quackBehaviour = quackBehaviour;
 	}
+	public void setFlyBehaviour(IFlyBehaviour flyBehaviour) {
+		this.flyBehaviour = flyBehaviour;
+	}
+	
+	public void setQuackBehaviour(IQuackBehaviour quackBehaviour) {
+		this.quackBehaviour = quackBehaviour;
+	}
 	
 	public void fly() {
 		this.flyBehaviour.fly();
