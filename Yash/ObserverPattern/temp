@@ -1,2 +1,3 @@
 
 Couple of challenges - A point of tight coupling is that knowledge of weather data is needed -- i.e. Later on, say we want to add some other weather data like wind speed, etc then that is cumbersome.
+Brain Power on pg. no. 57
